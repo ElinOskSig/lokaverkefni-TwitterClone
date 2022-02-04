@@ -1,0 +1,291 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 0px;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    
+    margin-left: auto;
+    height: 100vh;
+    
+    padding-bottom: 10px;
+}
+
+.twittersidebar {
+    border-right: 1px solid;
+    min-width: 250px;
+    margin-top: 20px;
+    flex: 0.2;
+   
+    margin-left: 20px;
+    float: left
+}
+
+.fa-twitter {
+    color: #50b7f5;
+    font-size: 28px;
+}
+
+.sidebar {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+    .sidebar .material-icons, .fa-twitter {
+        padding: 20px;
+    }
+
+    .sidebar h2 {
+        font-weight: 700;
+        font-size: 19px;
+       
+    }
+
+    .sidebar:hover {
+        background-color: #50b7f5;
+        color: #e6ecf0;
+        border-radius: 30px;
+        transition: color 100ms ease-out;
+    }
+
+.sidebarTweet {
+    width: 100%;
+    background-color: #50b7f5;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 800;
+    margin-top: 20px;
+    height: 45px;
+    cursor: pointer;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+    transition: 1s all;
+}
+button.sidebarTweet:hover {
+    background: #9201A8;
+}
+
+.feed {
+    
+    border-right: 1px solid;
+    border-color: #e6ecf0;
+    min-width: fit-content;
+    
+}
+
+.feedHeader {
+    
+    top: 0;
+    background-color: white;
+    border: 1px solid;
+    border-color: #e6ecf0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    
+}
+
+    .feedHeader h2 {
+        font-weight: 700;
+        font-size: 19px;
+    }
+
+.tweetBox {
+    padding-bottom: 9px;
+    border-bottom: 5px solid;
+    border-color: #e6ecf0;
+    padding-right: 9px;
+    
+}
+
+    .tweetBox form {
+        flex-direction: column;
+        display: flex;
+    }
+
+.boxInput {
+    display: flex;
+    padding: 19px;
+    width: 400px;
+}
+
+    .boxInput input {
+        margin-left: 19px;
+        flex: 1;
+        border: none;
+        font-size: 18px;
+        outline: none;
+        
+    }
+
+
+ .postBody {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 120px;
+    vertical-align: middle;
+    padding-right: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: darkgrey;
+    list-style-type: none;
+    margin-bottom: 80px;
+
+}
+ 
+
+li .postText {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: 300;
+    list-style-type: none;
+   
+}
+
+
+.boxInput img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.btn btn-primary {
+    width: 80px;
+    background-color: #50b7f5;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+    height: 50px;
+
+}
+.btn-btn-primary:hover {
+    background-color:purple;
+}
+
+
+.RightTweetContainer h2 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-left:10px;
+}
+
+.RightTweetContainer .twitter-tweet {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.searchIcon {
+    margin-left:10px;
+}
+.bi bi-heart {
+    margin-left:10px;
+}
+.card {
+    height: 100px;
+   width: 100%
+}
+
+
+span i {
+    transition: .3s all ease;
+   
+}
+
+.btn_up.clicked, .btn_up:hover i {
+    background-color:deeppink;
+}
+
+.btn_down.clicked, .btn_down:hover i {
+    background-color: red;
+}
+
+.far fa-heart:before {
+    display: flex;
+    margin-left: 4px;
+    margin-bottom: 3px;
+ 
+}
+
+.far fa-angry:before {
+    display: flex;
+    margin-left: 4px;
+}
+
+.postBody img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-left:5px;
+}
+.btn_up {
+    color:black;
+    border-radius:80px;
+}
+.btn_down {
+    color: black;
+    border-radius: 80px;
+}
+
+.postBtn {
+    background-color: #50b7f5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+    margin-top: 20px;
+    height: 25px;
+    cursor: pointer;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+    transition: 1s all;
+    font-size: 12px;
+    width: 30px;
+    
+}
+    button:hover {
+        background: #9201A8;
+    }
+
+input {
+    width: 75%;
+}
+
+.icons {
+    margin-bottom: 20px;
+  
+}
+
+ul .commentBox {
+    list-style-type: none;
+    position: absolute;
+
+}
+
+
+
